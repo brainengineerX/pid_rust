@@ -1,0 +1,9 @@
+[package]
+name = "pid_rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+egui = "0.22"
+eframe = "0.22" # 移除无效的 `windows` 功能
+winapi = { version = "0.3", features = ["winuser", "windef"] } # 添加所需功能特性
