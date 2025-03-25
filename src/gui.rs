@@ -29,7 +29,7 @@ pub struct PIDApp {
 impl Default for PIDApp {
     fn default() -> Self {
         PIDApp {
-            pid: PIDController::new(1.0, 0.1, 0.01),
+            pid: PIDController::new(1.554, 0.094, 0.633),
             setpoint: 100.0,
             measured_value: 90.0,
             dt: 0.1,
